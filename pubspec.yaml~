@@ -1,0 +1,38 @@
+name: invitation
+description: "A Flutter wedding invitation website with drag-and-drop functionality."
+publish_to: 'none' # Prevent accidental publishing to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.4
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  pdf: ^3.11.1
+  printing: ^5.13.4
+  screenshot: ^3.0.0
+  path_provider: ^2.1.5
+  flutter_bloc: ^8.1.6
+  google_fonts: ^6.2.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  # Add the assets required for images
+  assets:
+    - assets/images/woman.png
+    - assets/images/man.png
+    - assets/images/invitation.jpeg
+    - assets/images/landingBG.jpeg
+    - assets/images/invitation_blurred.png
+    - assets/images/landingBG_blurred.png
+    - assets/images/flower1.png
+    - assets/images/flower2.png
